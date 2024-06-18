@@ -1,13 +1,3 @@
----
-title: "Week 2 Part 2 - Assignment Centrality Measures"
-output: html_document
-date: "2024-06-18"
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 # Intro:
 
 Using Wikipedia data, we can look at the linked pages within each specific Wikipedia page. We can consider the articles to be nodes and links between articles to be edges. This way, we can analyze the connection between different articles and find which articles are central to specific categories.
@@ -19,5 +9,3 @@ Using Wiki API, we can acquire articles and their respective categories, links, 
 # Ingishts:
 
 From there, we could calculate the different centrality measurements of each article node. This would give us a sense of what articles are most relevant. If one category like politics, has a relatively high centrality, it may indicate a stronger interconnectedness.
-
-
